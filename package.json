@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix"
+  },
+  "dependencies": {
+    "@bambee/pollen": "^0.44.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/pro-light-svg-icons": "^5.14.0",
+    "@fortawesome/pro-regular-svg-icons": "^5.14.0",
+    "@fortawesome/pro-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@popperjs/core": "^2.4.4",
+    "@vue/composition-api": "^1.4.4",
+    "@vueuse/core": "^7.5.5",
+    "cleave.js": "^1.6.0",
+    "core-js": "^3.20.3",
+    "jw-paginate": "^1.0.4",
+    "lodash": "^4.17.15",
+    "shortid": "^2.2.15",
+    "survey-vue": "^1.8.11",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue": "^2.6.14",
+    "vue-focus-lock": "^1.4.1",
+    "vue-router": "^3.5.3",
+    "vue-select": "^3.11.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.16.0",
+    "@iconify/json": "^2.0.29",
+    "@vue/runtime-dom": "^3.2.29",
+    "eslint": "^8.7.0",
+    "husky": "^7.0.4",
+    "typescript": "^4.5.5",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-icons": "^0.13.0",
+    "unplugin-vue-components": "^0.17.14",
+    "unplugin-vue2-script-setup": "^0.9.1",
+    "vite": "^2.7.13",
+    "vite-plugin-vue2": "^1.9.3",
+    "vite-plugin-windicss": "^1.6.3",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
